@@ -1,0 +1,172 @@
+body {
+    font-family: "Lexend", sans-serif;
+	font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    background-color: #f4e1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+	flex-direction: column;
+}
+
+h1.naslov {
+    font-size: 2.5em;         
+    color: #b48b63;           
+    margin-bottom: 5px;      
+    text-align: center;
+	margin-top: 20px;
+	font-family:"Playwrite GB S", serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+h2.ime {
+	margin-top:10px;
+	color: #b48b63;
+	margin-bottom: 10px;
+	font-weight: 400; 
+    font-style: normal;	
+	font-size: 15px;
+}
+
+
+
+
+table.raspored {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: separate;
+    margin-top: 20px; 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d46a83;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+
+.raspored thead th {
+    background-color: #f9c6d1;
+    padding: 10px;
+    text-align: center;
+    color: #d46a83;
+    border: 1px solid #d46a83;
+}
+
+.raspored tbody td {
+    border: 1px solid #d46a83;
+    text-align: center;
+    padding: 8px;
+    width: 12%;
+}
+
+.raspored tbody td:first-child {
+    width: 8%;
+    color: #d46a83;
+	background-color: rgb(255, 185, 210, 0.2);
+}
+
+/* kolegiji */
+.lp {
+    background-color: #a57dcd;
+	color: #623b76;
+}
+
+.tf.vjezbe {
+    background-color: #a8e6cf;
+	color: #357f6d;
+}
+
+.tf.predavanje {
+    background-color: #a8e6cf;
+	color: #357f6d;
+}
+
+
+.engleski {
+    background-color: #a2c7e4;
+	color: #345f7a;
+}
+
+
+.gs.predavanje {
+    background-color: #d8aad3;
+	color: #7a3e6a;
+}
+
+.gs.seminar {
+    background-color: #d8aad3;
+	color: #7a3e6a;
+}
+
+.orip.seminar {
+    background-color: #f9eb92;
+	color: #9f751a;
+}
+
+.orip.vjezbe {
+    background-color: #f9eb92;
+	color: #9f751a;
+}
+
+.orip.predavanje {
+    background-color: #f9eb92;
+	color: #9f751a;
+}
+
+.repro {
+    background-color: #f7b679;
+	color: #8e5b1a;
+}
+
+.mk.predavanje {
+    background-color: #77d8d1;
+	color: #2f5f53;
+}
+
+.kom.predavanje {
+    background-color: #f6d3b1;
+	color: #b9793c;
+}
+
+.kom.seminar {
+    background-color: #f6d3b1;
+	color: #b9793c;
+}
+
+
+/* efekt */
+.raspored tbody tr:hover {
+    background-color: rgb(255, 185, 210, 0.2) 
+}
+
+.raspored tbody td {
+    transition: background-color 0.3s ease; 
+}
+
+table.grupe {
+	width: 20%;
+	border-radius: 2px solid #b48b63;
+	color: #b48b63;
+	background-color: rgba(180, 139, 99, 0.2);
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.grupe tbody td {
+    text-align: left;
+    padding: 8px;
+    width: 12%;
+}
+
+.grupe tbody td:first-child {
+    width: 90%;
+    color: #f4e1b1;
+	background-color: rgba(180, 139, 99, 0.4);
+	font-weight: 400;
+}
+
